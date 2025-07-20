@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="description" content="{Project Description}">
+    <title>{Project Name} | Your Portfolio</title>
+
+    <!-- Favicon and meta tags -->
+    <link rel="icon" href="{your site favicon}" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header class="project-header">
+        <div class="container">
+            <nav class="project-nav">
+                <a href="/" class="logo">
+                    <img src="./assets/img/page-logo.jpg" alt="Portfolio Logo">
+                </a>
+                <ul class="nav-links">
+                    <li><a href="     ">Home</a></li>
+                    <li><a href="     ">Projects</a></li>
+                    <li><a href="     ">Contact</a></li>
+                </ul>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="project-main">
+        <!-- Project Hero Section -->
+        <section class="project-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <span class="project-category">Web Development</span>
+                    <h1 class="project-title">E-Commerce Platform</h1>
+                    <p class="project-excerpt">A modern, scalable e-commerce solution with real-time inventory
+                        management and responsive design.</p>
+                    <div class="project-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>March 2025</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span>4 Months</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-user-tie"></i>
+                            <span>Solo Project</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Gallery -->
+        <section class="project-gallery">
+            <div class="container">
+                <div class="splide" id="project-slider">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="./assets/img/undraw_programmer_raqr.svg"
+                                    alt="Project Dashboard">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./assets/img/undraw_code-typing_laf4.svg"
+                                    alt="Product Page">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./assets/img/undraw_teamwork_8val.svg"
+                                    alt="Mobile View">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Details -->
+        <section class="project-details">
+            <div class="container">
+                <div class="details-grid">
+                    <!-- Left Column -->
+                    <div class="project-overview">
+                        <h2>Project Overview</h2>
+                        <p>Developed a full-featured e-commerce platform that handles 500+ concurrent users with
+                            real-time inventory updates. The platform includes:</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> User authentication & profiles</li>
+                            <li><i class="fas fa-check-circle"></i> Product catalog with advanced filtering</li>
+                            <li><i class="fas fa-check-circle"></i> Shopping cart with persistent storage</li>
+                            <li><i class="fas fa-check-circle"></i> Secure checkout process</li>
+                            <li><i class="fas fa-check-circle"></i> Admin dashboard for inventory management</li>
+                        </ul>
+
+                        <div class="project-challenge">
+                            <h3>Key Challenge</h3>
+                            <p>Implementing a real-time inventory system that could handle concurrent users without
+                                overselling products.</p>
+                            <div class="solution-box">
+                                <h4>My Solution</h4>
+                                <p>Developed a queue-based reservation system using WebSockets that temporarily holds
+                                    items for 10 minutes during checkout, with automatic release if not completed.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column -->
+                    <div class="project-sidebar">
+                        <div class="tech-stack">
+                            <h3>Technology Stack</h3>
+                            <div class="tech-grid">
+                                <div class="tech-item">
+                                    <i class="fab fa-html5"></i>
+                                    <span>HTML5</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fab fa-css3-alt"></i>
+                                    <span>CSS3/SCSS</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fab fa-js"></i>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fab fa-node-js"></i>
+                                    <span>Node.js</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fas fa-database"></i>
+                                    <span>MongoDB</span>
+                                </div>
+                                <div class="tech-item">
+                                    <i class="fas fa-plug"></i>
+                                    <span>WebSockets</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-results">
+                            <h3>Project Results</h3>
+                            <div class="result-item">
+                                <div class="result-value">28%</div>
+                                <div class="result-label">Increase in conversion rates</div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-value">15%</div>
+                                <div class="result-label">Reduction in cart abandonment</div>
+                            </div>
+                            <div class="result-item">
+                                <div class="result-value">42%</div>
+                                <div class="result-label">Increase in mobile engagement</div>
+                            </div>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#" class="link-button live-demo">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="link-button source-code">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Features -->
+        <section class="project-features">
+            <div class="container">
+                <h2 class="section-title">Key Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Responsive Design</h3>
+                        <p>Fully responsive layout that adapts to all screen sizes with mobile-first approach.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Real-Time Updates</h3>
+                        <p>Instant inventory updates across all user sessions with WebSocket integration.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h3>Secure Payments</h3>
+                        <p>PCI-compliant payment processing with multiple payment gateway options.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <h3>Admin Dashboard</h3>
+                        <p>Comprehensive dashboard for inventory, order, and customer management.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="project-footer">
+        <div class="container">
+            <div class="footer-copyright">
+                <p>&copy; <span id="current-year"></span> Your Name. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
+</body>
+
+</html>
